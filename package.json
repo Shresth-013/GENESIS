@@ -1,0 +1,33 @@
+{
+  "name": "genesis-traceability-framework",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "An Evidence-Grounded AI Framework for Software Requirement Traceability and Implementation Verification",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node tests/test-phase1.mjs && node tests/test-phase2.mjs && node tests/test-phase3.mjs && node tests/test-phase4.mjs && node tests/test-phase5.mjs && node tests/test-phase6.mjs && node tests/test-phase7.mjs && node tests/test-phase8.mjs"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.29.13",
+    "@google/genai": "^3.0.0",
+    "clsx": "^2.1.1",
+    "jszip": "^3.10.2",
+    "lucide-react": "^0.475.0",
+    "mammoth": "^1.13.0",
+    "next": "^14.2.24",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
